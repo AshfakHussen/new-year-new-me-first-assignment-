@@ -131,6 +131,7 @@
     border: 0;
     padding: 19px 48px;
 }
+
 /* footer */
 .only-footer {
     background-color: black;
@@ -173,17 +174,22 @@
 
 /* about me */
 .study-and-experience {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     background-color: beige;
     margin-left: 80px;
     margin-right: 80px;
     border-radius: 7px;
     margin-top: 40px;
+    height: 235px;
+
 }
 
 .study-header {
     font-size: 35px;
     color: darkorange;
+}
+
+.me-main-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
